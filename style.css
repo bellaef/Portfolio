@@ -315,6 +315,12 @@ span{
     color: #D82262;
 }
 
+.hero .footer p{
+    color: #ff6297;
+    margin-top: 130px;
+    text-align: center;
+}
+
 /*Feeling mood*/
 .hero2 {
     position: relative;
