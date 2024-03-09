@@ -67,6 +67,22 @@ nav ul li a:hover {
     text-align: center; /* Menengahkan teks */
 }
 
+.home .content a{
+    margin-left: 600px;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 8px 20px;
+    background-color: #FA86AD;
+    color: #7e173b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Menengahkan teks */
+}
+
+.home .content a:hover{
+    background-color: #E99BAE;
+}
+
 .content {
     margin-right: 20px; /* Berikan jarak antara konten dan gambar */
 }
@@ -440,7 +456,7 @@ span{
 }
 
 .p_project1 a {
-    margin-left: 600px;
+    margin-left: 300px;
     display: inline-block;
     margin-top: 30px;
     padding: 8px 20px;
