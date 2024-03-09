@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Bella - My Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="hero3">
+        <nav>
+            <img src="images/logo.png" class="logo" width="60" height="60" >
+            <ul class="navbar">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="porto.html">MY PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h1>Portofolio</h1>
+            <p>Berikut ini merupakan projek yang pernah saya buat bersama tim.</p>
+            <div class="portfolio">
+                <div class="project">
+                    <img class="foto-project" src="images/feeling_mood.png" alt="Project 1" onclick="openFullscreen(this)">
+                    <div class="project-info">
+                        <h3>Feeling Mood</h3>
+                        <p><i>Feeling Mood</i> merupakan aplikasi android yang dapat mengaktifkan lampu LED menggunakan
+                        kontrol suara atau fitur di dalam aplikasi. Warna tersebut dapat dikustomisasi, menyesuaikan dengan 
+                        keadaan cuaca saat ini atau menyesuaikan dengan <i>mood</i> pengguna.</p>
+                        <a href="feeling_mood.html">Lihat Proyek</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img class="foto-project" src="images/Tomass.png" alt="Project 2" onclick="openFullscreen(this)">
+                    <div class="project-info">
+                        <h3>TOMASS</h3>
+                        <p>TOMASS (<i>Tobaku Management Sales System</i>) merupakan aplikasi <i>Point of Sales</i> yang 
+                        menyediakan fitur penjualan dan manajemen toko untuk toko bahan kue (TOBAKU).</p>
+                        <a href="tomass.html">Lihat Proyek</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fullscreen" onclick="closeFullscreen()">
+        <img id="fullscreen-image" src="" alt="Fullscreen Image">
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>

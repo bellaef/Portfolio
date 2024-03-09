@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Gill Sans MT;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgb(250, 240, 243);
+}
+
+nav {
+    display: flex;
+    background-color: #FA86AD;
+    width: 100%;
+    height: 40px;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.navbar {
+    display: inline;
+    margin-left: auto; /* Menggeser navbar ke kanan */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Memberikan jarak antar item navbar */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #7e173b;
+}
+
+/* BAGIAN HOME */
+
+.home {
+    display: flex;
+    align-items: center; /* Menyusun konten secara vertikal di tengah */
+    justify-content: center; /* Menyusun konten secara horizontal di tengah */
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px; /* Batasi lebar konten */
+    text-align: center; /* Menengahkan teks */
+}
+
+.home .content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center; /* Menengahkan teks */
+}
+
+.content {
+    margin-right: 20px; /* Berikan jarak antara konten dan gambar */
+}
+
+.image-container {
+    flex: 1; /* Biarkan gambar mengisi sisa ruang */
+    text-align: center; /* Menengahkan gambar */
+}
+
+.image {
+    max-width: 100%; /* Pastikan gambar tidak melebihi lebar parent */
+    display: block; /* Hilangkan margin putih bawaan */
+    margin: 0 auto; /* Menengahkan gambar */
+}
+
+.home h1, .home h2, .home p {
+    margin-left: 100px; /* Menambahkan jarak dari kiri */
+    margin-right: 0px; /* Menambahkan jarak dari kanan */
+}
+
+.home h1{
+    font-size: 50px;
+    color: #E99BAE;
+}
+
+.home h2{
+    font-size: 30px;
+    color: #D82262;
+}
+
+span{
+    color:#D82262;
+}
+
+.home p{
+    margin-top: 40px;
+    font-size: 20px;
+    color:#FA86AD;
+    line-height: 22px;
+}
+
+/* BAGIAN ABOUT */
+.hero1 {
+    position: relative;
+    width: 100%;
+    height: 180vh;
+    background: rgb(250, 240, 243);
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.content {
+    text-align: center;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.about h1 {
+    font-size: 36px;
+    color: #D82262;
+    margin-bottom: 20px;
+}
+
+.about p {
+    color: #D82262;
+    margin-bottom: 30px;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #D82262;
+    margin-bottom: 10px;
+}
+
+.about ol {
+    text-align: left;
+    margin-left: 400px;
+    color: #D82262;
+    margin-bottom: 20px;
+}
+
+/* BAGIAN PORTO */
+.hero3 {
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    background: rgb(250, 240, 243);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .container h1{
+    font-size: 36px;
+    text-align: center;
+    color: #D82262;
+    margin-bottom: 20px;
+}
+.container p{
+    text-align: center;
+    color: #D82262;
+    margin-bottom: 30px;
+}
+  
+  .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(33.33% - 20px);
+    height: 400px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(255, 15, 127);
+    padding: 20px;
+  }
+  
+  .foto-project {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullscreen img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+  .portofolio .project img {
+    max-width: 20%;
+    height: auto;
+  }
+
+  .portfolio .project{
+    box-shadow: #ffffff;
+  }
+  
+  .project .project-info {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .project .project-info h3 {
+    margin: 0;
+    font-size: 18px;
+    color:#7e173b;
+    margin-bottom: 10px;
+  }
+  
+  .project .project-info a {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 8px 20px;
+    background-color: #FA86AD;
+    color: #7e173b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project .project-info a:hover {
+    background-color: #E99BAE;
+  }
+
+/* BAGIAN CONTACT */
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.content {
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 36px;
+    color: #D82262;
+    margin-bottom: 30px;
+}
+
+.contact p {
+    color: #D82262;
+    margin-top: 30%;
+    margin-bottom: 30px;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact ul li {
+    margin-bottom: 10px;
+    color: #ff6297;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.contact ul li a{
+    color: #D82262;
+}
+
+/*Feeling mood*/
+.hero2 {
+    position: relative;
+    width: 100%;
+    height: 200vh;
+    background: rgb(250, 240, 243);
+}
+.imageproject{
+    max-width: 20%;
+    max-height: 50%;
+}
+
+.p_project{
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 200vh;
+    background: rgb(250, 240, 243);
+    position: relative;
+}
+
+.p_project .content{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.p_project h1 {
+    font-size: 36px;
+    color: #D82262;
+    margin-bottom: 20px;
+}
+
+.p_project p {
+    color: #D82262;
+    margin-bottom: 10px;
+}
+
+.p_project h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #D82262;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .galeri {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 230px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(255, 15, 127);
+    padding: 20px;
+  }
+  
+  .gambar {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .galeri .project-info {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  /*tomass*/
+
+  .p_project1{
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgb(250, 240, 243);
+    position: relative;
+}
+
+.p_project1 .content{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.p_project1 h1 {
+    font-size: 36px;
+    color: #D82262;
+    margin-bottom: 20px;
+}
+
+.p_project1 p {
+    color: #D82262;
+    margin-bottom: 10px;
+}
+
+.p_project1 h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #D82262;
+    margin-bottom: 10px;
+}
+  .imageproject1{
+    max-width: 50%;
+    max-height: 70%;
+}
+
+.p_project1 a {
+    margin-left: 600px;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 8px 20px;
+    background-color: #FA86AD;
+    color: #7e173b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .p_project1 a:hover {
+    background-color: #E99BAE;
+  }

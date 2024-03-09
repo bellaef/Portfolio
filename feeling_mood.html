@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Bella - Portofolio - Feeling Mood</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="hero2">
+        <nav>
+            <img src="images/logo.png" class="logo" width="60" height="60" >
+            <ul class="navbar">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="porto.html">MY PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="p_project">
+            <div class="content">
+                <h1>Feeling Mood</h1>
+                <div class="image-container">
+                    <img src="images/feeling_mood.png" class="imageproject">
+                </div>
+                <p><i>Feeling Mood</i> merupakan aplikasi android yang dapat mengaktifkan lampu LED menggunakan
+                    kontrol suara atau fitur di dalam aplikasi. Warna tersebut dapat dikustomisasi, menyesuaikan dengan 
+                keadaan cuaca saat ini atau menyesuaikan dengan <i>mood</i> pengguna. Dikembangkan dengan <i>arduino voice recognition modulle</i> 
+                dan sensor PIR untuk mendeteksi manusia di sekitarnya, dapat menciptakan keadaan lampu yang otomatis akan dinonaktifkan ketika
+                tidak terdeteksi adanya manusia di sekitar lampu selama beberapa menit, serta menggunakan modul Bluetooth untuk mengontrol lampu melalui UI aplikasi.
+                Proyek ini merupakan proyek hasil 
+                dari program <i>World Friend Korea (WFK), ICT Project 2023</i> dengan Kyungpook National University dari Daegu, Korea 
+                Selatan. Aku mengambil bagian untuk membuat tampilan UI dari aplikasi ini. Melalui kerja sama yang baik dengan 
+                teman-teman dari Korea, proyek <i>Feeling Mood</i> ini mendapatkan urutan ke-2 aplikasi terbaik dalam program WFK ini.
+                </p>
+            </div>
+            <<div class="gallery">
+                <div class="galeri">
+                    <img class="gambar" src="images/ui.png" alt="Project 1" onclick="openFullscreen(this)">
+                    <div class="project-info">
+                        <p>Tampilan UI aplikasi <i>Feeling Mood</i></p>
+                    </div>
+                </div>
+                <div class="galeri">
+                    <img class="gambar" src="images/fotbar.jpg" alt="Project 1" onclick="openFullscreen(this)">
+                    <div class="project-info">
+                        <p>Dokumentasi Foto Bersama WFK</p>
+                    </div>
+                </div>
+                <div class="galeri">
+                    <img class="gambar" src="images/sertif.jpg" alt="Project 1" onclick="openFullscreen(this)">
+                    <div class="project-info">
+                        <p>Sertifikat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fullscreen" onclick="closeFullscreen()">
+        <img id="fullscreen-image" src="" alt="Fullscreen Image">
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
